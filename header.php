@@ -7,16 +7,22 @@
 </head>
 <body <?php body_class() ?>>
 <?php wp_body_open(); ?>
-<header class="site-header">
-    <div class="site-branding">
+<header class="site-sidebar">
+    <div class="sidebar-container">
+        <div class="sidebar-branding">
+            
+        </div>
+        <nav class="main-navigation">
+            <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'primary',
+                ));
+            ?>
+        </nav>
+        <div class="sidebar-functions">
+
+        </div>
     </div>
-    <nav class="main-navigation">
-        <?php
-            wp_nav_menu(array(
-                'theme_location' => 'primary',
-            ));
-        ?>
-    </nav>
 </header>
 
 <main class="site-content">

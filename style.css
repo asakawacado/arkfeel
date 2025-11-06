@@ -12,14 +12,25 @@ Text Domain: arkfeel
 
 :root {
     --color-ac1: #fffa00;
-    --color-ac2: rgba(255,250,0,0.5);
-    --color-bg1: #ffffff;
-    --color-bg2: #fafafa;
+    --color-bg1: #fafafa;
+    --color-bg2: #ffffff;
 }
 
 [data-theme="dark"] {
     --color-ac1: #0005ff;
-    --color-ac2: rgba(0,5,255,0.5);
-    --color-bg1: #000000;
-    --color-bg2: #121212;
+    --color-bg1: #121212;
+    --color-bg2: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wp-theme-arkfeel {
+    display: flex;
+    position: relative;
+    background-color: var(--color-bg1);
 }

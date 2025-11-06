@@ -1,9 +1,8 @@
-</main>
+            <footer class="site-footer">
+                <p>&copy; <?php echo date('Y') ?> <?php bloginfo('name'); ?>. All rights reserved </p>
+            </footer>
 
-<footer>
-    <p>&copy; <?php echo date('Y') ?> <?php bloginfo('name'); ?>. All rights reserved </p>
-</footer>
-
-<?php wp_footer(); ?>
-</body>
+            <?php wp_footer(); ?>
+        </main>
+    </body>
 </html>
