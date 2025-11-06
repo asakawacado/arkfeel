@@ -7,10 +7,16 @@
 </head>
 <body <?php body_class() ?>>
 <?php wp_body_open(); ?>
+
+<div id="loader-wrapper">
+    <div id="loader-progress">
+        <span id="loader-counter">0%</span>
+    </div>
+</div>
+
 <header class="site-sidebar">
     <div class="sidebar-container">
         <div class="sidebar-branding">
-            
         </div>
         <nav class="main-navigation">
             <?php
@@ -20,7 +26,6 @@
             ?>
         </nav>
         <div class="sidebar-functions">
-
         </div>
     </div>
 </header>
