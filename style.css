@@ -1,0 +1,25 @@
+/*
+Theme Name: ArkFeel
+Theme URI: https://blog.aiyezi.top/
+Author: Aiyezi
+Author URI: https://blog.aiyezi.top/
+Description: 一个新手开发的wordpress主题
+Version: 1.0
+License: GNU General Public License v3.0
+License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+Text Domain: arkfeel
+*/
+
+:root {
+    --color-ac1: #fffa00;
+    --color-ac2: rgba(255,250,0,0.5);
+    --color-bg1: #ffffff;
+    --color-bg2: #fafafa;
+}
+
+[data-theme="dark"] {
+    --color-ac1: #0005ff;
+    --color-ac2: rgba(0,5,255,0.5);
+    --color-bg1: #000000;
+    --color-bg2: #121212;
+}
